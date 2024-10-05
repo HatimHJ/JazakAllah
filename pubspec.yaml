@@ -1,0 +1,125 @@
+name: JazakAllah
+description: "A new Flutter project."
+# The following line prevents the package from being accidentally published to
+# pub.dev using `flutter pub publish`. This is preferred for private packages.
+publish_to: 'none' # Remove this line if you wish to publish to pub.dev
+
+
+version: 4.0.0+28
+
+environment:
+  sdk: '>=3.19.0 <4.0.0'
+
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  cupertino_icons: ^1.0.2
+  get: ^4.6.6
+  flutter_screenutil: ^5.9.0
+  flutter_svg: ^2.0.9
+  shared_preferences: ^2.2.2
+  pin_code_fields: ^8.0.1
+  webview_flutter: ^4.4.2
+  http: ^1.1.2
+  flutter_spinkit: ^5.2.0
+  audioplayers: ^5.2.1
+  flutter_launcher_icons: ^0.13.1
+  flutter_native_splash: ^2.4.1
+  colorful_safe_area:
+  flutter_swiper_view:
+  sqflite:
+  intl:
+  fluttertoast:
+  provider:
+  fl_chart:
+  geolocator:
+  adhan:
+  permission_handler:
+  flutter_qiblah:
+  purchases_flutter: ^6.5.1
+  onesignal_flutter: ^5.2.0
+  firebase_core: ^2.10.0
+  flutter_local_notifications: ^17.2.1+2
+  carousel_slider: ^4.2.1
+  google_fonts: ^6.1.0
+  image_picker:
+  youtube_player_flutter:
+  flutter_wallpaper_manager:
+  flutter_cache_manager:
+  cached_network_image:
+  dio:
+  image_gallery_saver:
+  hijri:
+  google_maps_flutter: ^2.5.3
+  geocoding: ^2.1.1
+  uuid: ^4.3.3
+  flutter_dotenv: ^5.1.0
+  flutter_localizations:
+    sdk: flutter
+
+
+flutter_launcher_icons:
+  android: true
+  ios: true
+  remove_alpha_ios: true
+  image_path: "assets/images/logo.png"
+  web:
+    generate: true
+    image_path: "assets/images/logo.png"
+  macos:
+    generate: true
+    image_path: "assets/images/logo.png"
+    icon_size: 48
+
+
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+
+  flutter_lints: ^2.0.0
+
+
+flutter:
+
+  uses-material-design: true
+
+  # To add assets to your application, add an assets section, like this:
+  assets:
+    - assets/images/
+    - assets/fonts/
+    - assets/locales/
+    - assets/.env
+
+
+
+
+
+
+  # An image asset can refer to one or more resolution-specific "variants", see
+  # https://flutter.dev/assets-and-images/#resolution-aware
+
+  # For details regarding adding assets from package dependencies, see
+  # https://flutter.dev/assets-and-images/#from-packages
+
+  # To add custom fonts to your application, add a fonts section here,
+  # in this "flutter" section. Each entry in this list should have a
+  # "family" key with the font family name, and a "fonts" key with a
+  # list giving the asset and other descriptors for the font. For
+  # example:
+  fonts:
+    - family: Barlow
+      fonts:
+        - asset: assets/fonts/Barlow-Regular.ttf
+  #         style: italic
+    - family: Poppins
+      fonts:
+        - asset: assets/fonts/Poppins-Regular.ttf
+  #       - asset: fonts/TrajanPro_Bold.ttf
+  #         weight: 700
+  #
+  # For details regarding fonts from package dependencies,
+  # see https://flutter.dev/custom-fonts/#from-packages
